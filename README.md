@@ -6,7 +6,7 @@ This is an Android application that takes a picture and utilizes a neural networ
 
 * [Google Cloud Platform Compute Engine](https://cloud.google.com/) - virtual machines/servers running in Google data centers
 
-* [Android Studio](https://developer.android.com/studio/index.html) - the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
+* [Android Studio](https://developer.android.com/studio/index.html) - the official integrated development environment (IDE) for Google's Android operating system in which the Java code for the Android application was written.
 
 * [Docker](https://www.docker.com/) - an open-source project for automating the deployment of applications as portable, self-sufficient containers that can run on the cloud or on-premises. Docker is also a company that promotes and evolves this technology. Docker works in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
 
