@@ -7,3 +7,5 @@ This is an Android application that takes a picture and utilizes a neural networ
 * [Google Cloud Platform](https://cloud.google.com/)
 
 * [Android Studio](https://developer.android.com/studio/index.html)
+
+* [Docker](https://www.docker.com/)
