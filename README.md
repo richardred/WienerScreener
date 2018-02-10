@@ -9,3 +9,5 @@ This is an Android application that takes a picture and utilizes a neural networ
 * [Android Studio](https://developer.android.com/studio/index.html)
 
 * [Docker](https://www.docker.com/)
+
+* [Node.js](https://nodejs.org/en/)
