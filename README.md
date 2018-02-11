@@ -7,8 +7,11 @@ We trained a neural network using TensorFlow machine learning algorithms with th
 An Android application was created so users could take photos and have them evaluated for hot dog status using the data from the trained neural network.
 
 To accomplish this, a web server was created using Node.js and Docker to handle user requests and process uploaded images.
+
 The domain https://wiener.world was purchased in order to establish a proper user experience.
 ImageMagick was then used to overlay a response image to the client that displays 'wiener' or 'not wiener'.
+
+All of the files in the server directory were created in a Linux Virtual Machine environment, which we then uploaded into a Google Cloud server, which currently hosts and runs all of the back-end functionalities.
 
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
