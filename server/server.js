@@ -63,25 +63,44 @@ function generateWienerImage(file, isWiener, callback) {
     } else {
         overlayFile = "overlays/notwiener.png";
     }
-    getTempImageFile(function(err, wienerFile, wienerFD) {
+    getTempImageFile(function(err, normalizedFile, normalizedFD) {
         if (err) {
             callback(err);
             return;
         }
-        fs.close(wienerFD, function(err) {
+        fs.close(normalizedFD, function(err) {
             if (err) {
                 callback(err);
                 return;
             }
             gm(file)
-                .composite(overlayFile)
-                .gravity("center")
-                .geometry("XwH")
-                .write(wienerFile, function(err) {
-                    callback(err, wienerFile);
+                .resize(1000)
+                .write(normalizedFile, function(err) {
+                    if (err) {
+                        callback(err);
+                        return;
+                    }
+                    getTempImageFile(function(err, wienerFile, wienerFD) {
+                        if (err) {
+                            callback(err);
+                            return;
+                        }
+                        fs.close(wienerFD, function(err) {
+                            if (err) {
+                                callback(err);
+                                return;
+                            }
+                            gm(normalizedFile)
+                                .composite(overlayFile)
+                                .write(wienerFile, function(err) {
+                                    callback(err, wienerFile);
+                                });
+                        });
+                    });
                 });
         });
-    });}
+    });
+}
 
 function pretendErrorDoesntExist(err) {
     if (err) {
@@ -114,7 +133,7 @@ app.post('/testwiener', bodyParser.raw({ limit: '10mb' }), function(req, res) {
 });
 
 
-var server = app.listen(80, function() {
+var server = app.listen(8080, function() {
 	var host = server.address().address
 	var port = server.address().port
 

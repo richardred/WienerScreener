@@ -1,0 +1,9 @@
+wiener.world {
+    root /web
+}
+
+api.wiener.world {
+    proxy / 10.142.0.3:8080 {
+        transparent
+    }
+}
