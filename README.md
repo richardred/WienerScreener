@@ -13,6 +13,8 @@ ImageMagick was then used to overlay a response image to the client that display
 
 All of the files in the server directory were created in a Linux Virtual Machine environment, which we then uploaded into a Google Cloud server, which currently hosts and runs all of the back-end functionalities.
 
+Because everything is handled server-side, the neural network could be retrained with new data at any time to recognize anything else, and the client wouldn't even have to update their device for the new changes to take place.
+
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
 
