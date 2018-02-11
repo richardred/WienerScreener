@@ -15,6 +15,9 @@ All of the files in the server directory were created in a Linux Virtual Machine
 
 Because everything is handled server-side, the neural network could be retrained with new data at any time to recognize anything else, and the client wouldn't even have to update their device for the new changes to take place.
 
+## How to use
+Visit https://wiener.world/ and click the download link for the android APK, then simply install from a file manager and it's ready to go!
+
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
 
