@@ -1,5 +1,5 @@
 # WienerScreener - https://wiener.world
-This is an Android application that takes a picture and utilizes a neural network to determine whether or not the picture is of a wiener.
+This is an Android application that takes a picture and utilizes a neural network to determine whether or not the picture is of a hot dog.
 
 ## How it works
 We trained a neural network using TensorFlow machine learning algorithms with thousands of images defined as either 'wiener' or 'not wiener' until it could successfully identify hot dogs.
