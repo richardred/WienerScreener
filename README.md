@@ -13,3 +13,5 @@ This is an Android application that takes a picture and utilizes a neural networ
 * [Node.js](https://nodejs.org/en/) - a JavaScript runtime built on [Chrome's V8 JavaScript engine](https://developers.google.com/v8/), specifically the [Express framework](https://expressjs.com/) to create a web server on the Google Cloud server that would handle the front-end application requests.
 
 * [ImageMagick](https://www.imagemagick.org/script/index.php) - an open-source image manipulation tool that was used to create overlays displaying the wiener status of a photo.
+
+* [Caddy](https://caddyserver.com/) - a web server and proxy which automatically generates https certificates
