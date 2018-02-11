@@ -1,6 +1,15 @@
 # WienerScreener - https://wiener.world
 This is an Android application that takes a picture and utilizes a neural network to determine whether or not the picture is of a hot dog.
 
+## How it works
+We trained a neural network using TensorFlow machine learning algorithms with thousands of images defined as either 'wiener' or 'not wiener' until it could successfully identify hot dogs.
+
+An Android application was created so users could take photos and have them evaluated for hot dog status using the data from the trained neural network.
+
+To accomplish this, a web server was created using Node.js and Docker to handle user requests and process uploaded images.
+The domain https://wiener.world was purchased in order to establish a proper user experience.
+ImageMagick was then used to overlay a response image to the client that displays 'wiener' or 'not wiener'.
+
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
 
