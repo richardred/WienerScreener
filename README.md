@@ -19,7 +19,7 @@ The domain https://wiener.world was purchased in order to maximize the quality o
 ## How to use
 Visit https://wiener.world/ and click the download link for the android APK, then simply install from a file manager and it's ready to go!
 
-Tap the 'scan for wieners' button at the bottom of the screen, take a picture of anything, then wait for the app to give you an answer (typically takes anywhere from 15 to 30 seconds depending on internet speed).
+Tap the 'scan for wieners' button at the bottom of the screen, take a picture of anything, then wait for the app to give you an answer (typically takes anywhere from 5 to 30 seconds depending on internet speed).
 
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
