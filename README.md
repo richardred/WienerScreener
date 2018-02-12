@@ -34,4 +34,4 @@ Tap the 'scan for wieners' button at the bottom of the screen, take a picture of
 
 * [ImageMagick](https://www.imagemagick.org/script/index.php) - an open-source image manipulation tool that was used to create overlays displaying the wiener status of a photo.
 
-* [Caddy](https://caddyserver.com/) - a web server and proxy which automatically generates https certificates
+* [Caddy](https://caddyserver.com/) - a web server and proxy which automatically generates HTTPS certificates
