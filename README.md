@@ -8,12 +8,13 @@ An Android application was created so users could take photos and have them eval
 
 To accomplish this, a web server was created using Node.js and Docker to handle user requests and process uploaded images.
 
-The domain https://wiener.world was purchased in order to establish a proper user experience.
 ImageMagick was then used to overlay a response image to the client that displays 'wiener' or 'not wiener'.
 
 All of the files in the server directory were created in a Linux Virtual Machine environment and are now hosted on a Google Cloud server which currently runs all of the back end functionalities.
 
 Because everything is handled server-side, the neural network could be retrained with new data at any time to recognize anything else, and the client wouldn't even have to update their device for the new changes to take place.
+
+The domain https://wiener.world was purchased in order to maximize the quality of the user experience.
 
 ## How to use
 Visit https://wiener.world/ and click the download link for the android APK, then simply install from a file manager and it's ready to go!
