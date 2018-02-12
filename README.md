@@ -11,7 +11,7 @@ To accomplish this, a web server was created using Node.js and Docker to handle 
 The domain https://wiener.world was purchased in order to establish a proper user experience.
 ImageMagick was then used to overlay a response image to the client that displays 'wiener' or 'not wiener'.
 
-All of the files in the server directory were created in a Linux Virtual Machine environment, which on a Google Cloud server which currently hosts and runs all of the back-end functionalities.
+All of the files in the server directory were created in a Linux Virtual Machine environment and are now hosted on a Google Cloud server which currently runs all of the back end functionalities.
 
 Because everything is handled server-side, the neural network could be retrained with new data at any time to recognize anything else, and the client wouldn't even have to update their device for the new changes to take place.
 
