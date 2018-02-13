@@ -23,10 +23,6 @@ Visit https://wiener.world/ and click the download link for the android APK, the
 
 Tap the 'scan for wieners' button at the bottom of the screen, take a picture of anything, then wait for the app to give you an answer (typically takes anywhere from 5 to 30 seconds depending on internet speed).
 
-### Screenshots
-
-![Is Wiener](/pictures/Screenshot_20180211-001259.png)
-
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
 
