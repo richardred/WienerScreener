@@ -25,7 +25,7 @@ Tap the 'scan for wieners' button at the bottom of the screen, take a picture of
 
 ### Screenshots
 
-![Is Wiener](../pictures/Screenshot_20180211-001259.png)
+![Is Wiener](/pictures/Screenshot_20180211-001259.png)
 
 ## Built With
 * [TensorFlow](https://www.tensorflow.org/) - an open-source machine learning framework with python libraries
