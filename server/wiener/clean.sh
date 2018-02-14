@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script empties a directory of .jpeg files.
 
 if [[ $# -lt 1 ]]; then
 	echo "Usage: $0 <folder-to-clean>"
