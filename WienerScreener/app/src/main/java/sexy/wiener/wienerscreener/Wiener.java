@@ -4,6 +4,8 @@
  *
  * The front-end Android application that communicates with the cloud-based server
  * to determine whether or not a picture that is taken in the app is a hot dog.
+ *
+ * This code is awful.
  */
 package sexy.wiener.wienerscreener;
 
