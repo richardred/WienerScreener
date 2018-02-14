@@ -1,3 +1,5 @@
+// This is the worst code I've ever written, so many instances of callback hell
+
 var express = require('express');
 var tmp = require('tmp');
 var bodyParser = require('body-parser');
