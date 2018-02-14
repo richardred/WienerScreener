@@ -104,6 +104,7 @@ function generateWienerImage(file, isWiener, callback) {
     });
 }
 
+// If you're seeing this function, just pretend it doesn't exist like I pretended errors don't exist.
 function pretendErrorDoesntExist(err) {
     if (err) {
         console.log("ERR: " + err);
