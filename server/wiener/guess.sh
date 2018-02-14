@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script uses Docker to process an image with the neural network training data and says if it is of a wiener.
 
 if [[ $# -lt 1 ]]; then
 	echo "Usage: $0 <guess-img.jpg>"
