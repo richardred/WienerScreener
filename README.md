@@ -1,6 +1,6 @@
 # WienerScreener - https://wiener.world
 
-https://play.google.com/store/apps/details?id=sexy.wiener.wienerscreener (temporarily down)
+https://play.google.com/store/apps/details?id=sexy.wiener.wienerscreener
 
 This is an Android application that takes a picture and utilizes a neural network to determine whether or not the picture is of a hot dog.
 
